@@ -1,4 +1,4 @@
-# Blockbridge.ga
+# www.blockbridge.ga
 
 This repo hosts the code for blockbridge.ga on the main branch.
 
