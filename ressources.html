@@ -13,7 +13,7 @@
         <nav>
             <ul id="menuList">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a  href="webinaires.html">Wébinaires</a></li>
+                <li><a href="webinaires.html">Wébinaires</a></li>
                 <li><a class="current" href="ressources.html">Ressources</a></li>
                 <li><a  href="mixite.html">Mixité</a></li>
                 <li><a href="articles.html">Articles</a></li>
@@ -41,6 +41,31 @@
        </div>
         </div>
     </div>
+    </div>
+
+    <script> 
+
+        var menuList = document.getElementById("menuList");
+        
+        menuList.style.maxHeight= "0px";
+        
+        function togglemenu(){
+    
+        if(menuList.style.maxHeight == "0px")
+        
+        {
+            menuList.style.maxHeight = "130px";
+        }
+        else
+        {
+        menuList.style.maxHeight = "0px";
+        }
+        }
+        </script>
+
+        </body>
+<br>
+<br>
 
     <footer>
 
@@ -71,24 +96,5 @@
 
 </div>
 </div>
-<script> 
 
-    var menuList = document.getElementById("menuList");
-    
-    menuList.style.maxHeight= "0px";
-    
-    function togglemenu(){
-
-    if(menuList.style.maxHeight == "0px")
-    
-    {
-        menuList.style.maxHeight = "130px";
-    }
-    else
-    {
-    menuList.style.maxHeight = "0px";
-    }
-    }
-    </script>
-</body>
 </html>
