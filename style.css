@@ -418,7 +418,7 @@ transform: translateX(75px)
     display: block;
     width: 100%;
     margin-bottom: 40px;
-    text-align: center;
+    text-align:none;
     }
     
     .footer-distributed .footer-center i{
