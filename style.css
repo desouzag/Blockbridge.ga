@@ -448,6 +448,7 @@ footer{
     min-height: 100px;
     padding: 20px 50px;
     flex-direction: column;
+    box-sizing:border-box;
 
 }    
 
@@ -458,6 +459,7 @@ footer .menu{
     align-items: center;
     margin: 10px;
     flex-wrap: wrap;
+    
 }
 
 footer .menu li{
