@@ -3,6 +3,9 @@
 	padding: 0;
 	font-family: "Manrope", sans-serif;
 }
+
+/*body*/
+
 .container
 {
     width: 100%;
@@ -154,6 +157,8 @@ button:hover
     width: 80%;
 
 }
+
+
 .color-box
 {
     position: absolute;
@@ -191,6 +196,9 @@ cursor: pointer;
 {
     text-align: center;
 }
+
+/* footer*/
+
 
 .footer-distributed{
     background-color: none;
@@ -331,7 +339,9 @@ cursor: pointer;
     margin-right: 0px;
     margin-bottom: 5px;
 
+
        }
+/* page blockchain*/
 
        .blockchain-title{
            margin-bottom: 100px;
@@ -345,6 +355,23 @@ cursor: pointer;
     text-align: center;
     margin-bottom: 120px;
 }
+
+/* page webinaire*/
+
+.col-3
+{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 200px;
+}
+
+.webinaire-title
+{
+    margin-top: 60px;
+    text-align: center;
+color: #ad3f2b;
+}
+
 
 
 @media only screen and (max-width:900px)
