@@ -101,7 +101,7 @@ nav .current
 
 button
 {
-    width: 140px;
+    width: fit-content;
     border: 0;
     padding: 12px 10px;
     outline: none;
@@ -484,14 +484,11 @@ transform: translateX(75px)
     
 }
 
-.col-4
-{
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: 0 none;
-    box-sizing: border-box;
-    height: auto! important;
+iframe{
+    
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
 }
 
 .col-5
