@@ -129,6 +129,8 @@ button:hover
     align-items: center;
     justify-content: space-between;
 }
+
+
 .col-1::after
 {
     content:'';
