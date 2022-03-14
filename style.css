@@ -330,6 +330,20 @@ cursor: pointer;
 
        }
 
+       .blockchain-title{
+           margin-bottom: 100px;
+           margin-top: 100px;
+           text-align: center;
+           color: #554949;
+           font-size: 20px;
+       }
+
+.blockchain-content{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+
 @media only screen and (max-width:900px)
 
 {
