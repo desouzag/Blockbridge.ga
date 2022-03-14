@@ -372,6 +372,26 @@ cursor: pointer;
 color: #ad3f2b;
 }
 
+/* page ressource*/
+
+.ressources-title{
+    margin-top: 60px;
+    text-align: center;
+color: #10500a;
+
+}
+
+.col-5{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.col-6
+{
+    margin-left: 100px;
+}
+
 
 
 @media only screen and (max-width:900px)
@@ -451,6 +471,23 @@ transform: translateX(75px)
         font-size: 35px;
     
 }
+
+.col-3
+{
+    flex-basis: 40%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    
+}
+
+.col-4
+{
+    width: 100%;
+}
 .footer-distributed{
     font: bold 14px sans-serif;
     
@@ -483,6 +520,8 @@ transform: translateX(75px)
        }
 
     }
+
+    /*end of @media only screen*/
             
 
 footer{
